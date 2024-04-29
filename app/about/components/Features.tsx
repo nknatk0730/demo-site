@@ -8,7 +8,10 @@ export const Features = () => {
         <div className="border rounded-lg p-6 shadow space-y-3 relative">
           <div className="aspect-video bg-muted"></div>
           <h2>
-            Title <Link href="/" className="absolute inset-0"></Link>
+            <Link href="/">
+              Title
+              <span className="absolute inset-0"></span>
+            </Link>
           </h2>
           <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
           <button>Tag</button>
